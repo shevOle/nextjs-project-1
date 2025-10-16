@@ -13,5 +13,10 @@ export interface FormState extends FormFields {
 }
 
 export interface User {
-  username: string;
+  email: string;
+}
+
+export interface ICountyVisitsInfo {
+  name: string;
+  visits: number;
 }
